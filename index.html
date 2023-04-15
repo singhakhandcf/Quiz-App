@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz app</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/183bf90230.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="start common">
+        <button class="s1">Start Quiz</button>
+    </div>
+
+    <div class="instruction common show">
+        <div class="i1">
+            <h1>Some Rules of this Quiz</h1>
+            <br>
+            <hr>
+            <br>
+            <p> 1.You will have <a>15 seconds</a> per questions</p>
+            <p>2.Once you select your answer,it can't be undone</p>
+            <p>3.You can't select any answer once the time passes.</p>
+            <p>4.You can't exit without completing it.</p>
+            <p>5.You will get points on the basis of correct answers</p>
+            <br>
+            <hr>
+            <br>
+            <div class="buttons">
+                <button class="exit">Exit Quiz</button>
+                <button class="continue">Continue</button>
+            </div>
+        </div>
+
+
+    </div>
+    <div class="q1 common show">
+        <div class="q11">
+            <div class="upper">
+                <h2>Quiz</h2>
+                <div class="timer">
+                    <div class="timleft">Time Left</div>
+                    <div class="timesec">15</div>
+                </div>
+            </div>
+
+            <br>
+            <hr>
+            <br>
+            <div class="que_text">
+                <h1>1. What does HTML stand for?</h1>
+            </div>
+            
+            <br>
+            <div class="q1buttons">
+                <div class="option"  onclick="buttonselected(this)" onclick="clearInterval(counter)">Hyper Text Makeup Language</div>
+                <div class="option"  onclick="buttonselected(this)"  onclick="clearInterval(counter)">Hyper Text Margin Language</div>
+                <div class="option" onclick="buttonselected(this)"  onclick="clearInterval(counter)">Hyper Text Markup Language</div>
+                <div class="option" onclick="buttonselected(this)"  onclick="clearInterval(counter)">Hyper Text Motion Language</div>
+            </div>
+
+            <br>
+            <hr>
+            <br>
+            <div class="last">
+                <h3 class="ku"><strong></strong> of <strong>5</strong> Questions</h3>
+                <button class="next">Next</button> 
+            </div>
+
+        </div>
+    </div>
+  
+    <div class="result common show">
+        <div class="extra">
+            <i class="fa-solid fa-crown fa-10x"></i>
+            <br>
+            <hr>
+            <br>
+            <h3 class="akhu">You have completed the quiz! and nice <i class="fa-regular fa-face-smile"></i> , you got 2 out of 5</h3>
+            <br>
+            <hr>
+            <br>
+            <div class="buttons" id="but1">
+                <button class="exit1">Exit quiz</button>
+                <button class="replay">Replay quiz</button>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="questions.js"></script>
+    <script src="app.js"></script>
+
+</body>
+
+</html>

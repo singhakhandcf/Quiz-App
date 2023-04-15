@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins",sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(0, 106, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.common{
+    width: 90%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.start button{
+    text-align: center;
+    background-color: aliceblue;
+    box-shadow: 0 0 5px rgba(0,0,0.3);
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: rgb(0, 106, 255);
+}
+.start button:hover{
+    transform: scale(1.1);
+    background-color: orange;
+}
+.i1{
+    background-color: aliceblue;
+    box-shadow: 0 0 5px rgba(0,0,0.3);
+    border-radius: 5px;
+    padding: 20px;
+}
+.buttons{
+    width: 100%;
+    gap: 0.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.buttons button{
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgb(0, 106, 255);
+    padding: 10px;
+    font-size: 1rem;
+}
+.buttons button:hover{
+    transform: scale(1.1);
+}
+a{
+    color: rgb(0, 106, 255);
+}
+.exit{
+    background-color: aliceblue;
+    color: rgb(0, 106, 255);
+}
+.continue{
+    background-color: rgb(0, 106, 255);
+    color: aliceblue;
+}
+p{
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.q11{
+    background-color: aliceblue;
+    box-shadow: 0 0 5px rgba(0,0,0.3);
+    border-radius: 5px;
+    padding: 20px;
+}
+.q1buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    
+}
+.option{
+    border-radius: 5px;
+    border-color: rgb(0, 106, 255);
+    background-color: whitesmoke;
+    padding: 10px;
+    font-size: 1.2rem;
+    text-align: left;
+    cursor: pointer;
+    box-shadow: 0 0 5px rgba(0,0,0.3);
+}
+.option:hover{
+    background-color: lightblue;
+}
+.show{
+    display: none;
+}
+.next{
+    border-radius: 5px;
+    background-color: rgb(0, 106, 255);
+    color: aliceblue;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    cursor:pointer;
+}
+.last{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.next:hover{
+    transform: scale(1.1);
+}
+.next1{
+    border-radius: 5px;
+    background-color: rgb(0, 106, 255);
+    color: aliceblue;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    cursor:pointer;
+}
+.next1:hover{
+    transform: scale(1.1);
+}
+
+.next2{
+    border-radius: 5px;
+    background-color: rgb(0, 106, 255);
+    color: aliceblue;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    cursor:pointer;
+}
+.next2:hover{
+    transform: scale(1.1);
+}
+
+.next3{
+    border-radius: 5px;
+    background-color: rgb(0, 106, 255);
+    color: aliceblue;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    cursor:pointer;
+}
+.next3:hover{
+    transform: scale(1.1);
+}
+
+.next4{
+    border-radius: 5px;
+    background-color: rgb(0, 106, 255);
+    color: aliceblue;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    cursor:pointer;
+}
+.next4:hover{
+    transform: scale(1.1);
+}
+
+.timer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 145px;
+    height: 45px;
+    background-color: #cce5ff;
+    border: 1px solid #b8daff;
+    border-radius: 5px;
+    padding: 0 8px;
+}
+.upper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.timesec{
+    background-color: #343a40;
+    height: 30px;
+    width: 45px;
+    color: #fff;
+    text-align: center;
+    border: 1px solid #343a40;
+    border-radius: 5px;
+    line-height: 30px;
+}
+.replay{
+    background-color: rgb(0, 106, 255);
+    color: aliceblue;
+}
+.extra{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 35rem;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0.3);
+}
+.exit:hover{
+    background-color: rgb(0, 106, 255);
+    color: aliceblue;
+}
+.exit1{
+    background-color: aliceblue;
+    color: rgb(0, 106, 255);
+}
+.exit1:hover{
+    background-color: rgb(0, 106, 255);
+    color: aliceblue;
+}
+#but1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.correct{
+    color: #155724;
+    background: lightgreen;
+    border-color: #c3e6cb;
+}
+.wrong{
+    background-color: rgb(255, 55, 0);
+}
+.disabled{
+    pointer-events: none;
+}
